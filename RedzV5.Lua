@@ -1,12 +1,6 @@
 local MarketplaceService = game:GetService("MarketplaceService")
 local UserInputService = game:GetService("UserInputService")
-local TweenService = game:GetService("TweenService")
-local HttpService = game:GetService("HttpService")
-local RunService = game:GetService("RunService")
-local CoreGui = game:GetService("CoreGui")
-local Players = game:GetService("Players")
-local Player = Players.LocalPlayer
-local PlayerMouse = Player:GetMouse()
+-- ... (o resto do código permanece igual)
 
 local redzlib = {
 	Themes = {
@@ -37,18 +31,18 @@ local redzlib = {
 		},
 		Purple = {
 			["Color Hub 1"] = ColorSequence.new({
-				ColorSequenceKeypoint.new(0.00, Color3.fromRGB(43, 255, 0)),
-				ColorSequenceKeypoint.new(0.50, Color3.fromRGB(43, 255, 0)),
-				ColorSequenceKeypoint.new(1.00, Color3.fromRGB(43, 255, 0))
+				ColorSequenceKeypoint.new(0.00, Color3.fromRGB(25, 35, 27)),      -- Verde muito escuro
+				ColorSequenceKeypoint.new(0.50, Color3.fromRGB(32, 45, 35)),     -- Verde escuro médio
+				ColorSequenceKeypoint.new(1.00, Color3.fromRGB(25, 35, 27))      -- Verde muito escuro
 			}),
-			["Color Hub 2"] = Color3.fromRGB(43, 255, 0),
-			["Color Stroke"] = Color3.fromRGB(43, 255, 0),
-			["Color Theme"] = Color3.fromRGB(43, 255, 0),
-			["Color Text"] = Color3.fromRGB(240, 240, 240),
-			["Color Dark Text"] = Color3.fromRGB(180, 180, 180),
-			["Color Dark Purple"] = Color3.fromRGB(43, 255, 0),
+			["Color Hub 2"] = Color3.fromRGB(30, 40, 32),                        -- Verde escuro
+			["Color Stroke"] = Color3.fromRGB(45, 60, 48),                       -- Verde escuro acinzentado
+			["Color Theme"] = Color3.fromRGB(76, 175, 80),                       -- Verde principal
+			["Color Text"] = Color3.fromRGB(220, 237, 200),                      -- Verde claro/off-white
+			["Color Dark Text"] = Color3.fromRGB(150, 180, 140),                 -- Verde médio
+			["Color Dark Purple"] = Color3.fromRGB(56, 142, 60),                 -- Verde escuro (substitui o roxo)
 			["Color Hub 9"] = Color3.fromRGB(0, 0, 0, 0),
-			["Color Dark Greem"] = Color3.fromRGB(43, 255, 0)
+			["Color Dark Greem"] = Color3.fromRGB(102, 187, 106)                 -- Verde brilhante
 		}
 	},
 	Info = {
