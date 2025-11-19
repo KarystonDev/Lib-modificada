@@ -45,19 +45,7 @@ local redzlib = {
 			["Color Theme"] = Color3.fromRGB(150, 0, 255),
 			["Color Text"] = Color3.fromRGB(240, 240, 240),
 			["Color Dark Text"] = Color3.fromRGB(180, 180, 180)
-		},
-Nitro = {
-    ["Color Hub 1"] = ColorSequence.new({
-        ColorSequenceKeypoint.new(0.00, Color3.fromRGB(173, 216, 230)),
-        ColorSequenceKeypoint.new(0.50, Color3.fromRGB(100, 149, 237)),
-        ColorSequenceKeypoint.new(1.00, Color3.fromRGB(25, 25, 112))
-    }),
-    ["Color Hub 2"] = Color3.fromRGB(70, 130, 180),
-    ["Color Stroke"] = Color3.fromRGB(30, 144, 255),
-    ["Color Theme"] = Color3.fromRGB(0, 191, 255),
-    ["Color Text"] = Color3.fromRGB(240, 248, 255),
-    ["Color Dark Text"] = Color3.fromRGB(176, 224, 230)
-}
+		}
 	Info = {
 		Version = "1.1.0"
 	},
