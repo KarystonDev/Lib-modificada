@@ -51,7 +51,25 @@ local redzlib = {
 			["Color Dark Purple"] = Color3.fromRGB(179, 0, 255),
 			["Color Hub 9"] = Color3.fromRGB(0, 0, 0, 0),
 			["Color Dark Greem"] = Color3.fromRGB(43, 255, 0)
-		}
+		},
+Nitro = {
+    ["Color Hub 1"] = ColorSequence.new({
+        ColorSequenceKeypoint.new(0.00, Color3.fromRGB(173, 216, 230)), -- Azul bebê claro
+        ColorSequenceKeypoint.new(0.25, Color3.fromRGB(135, 206, 250)), -- Azul céu
+        ColorSequenceKeypoint.new(0.50, Color3.fromRGB(100, 149, 237)), -- Azul médio
+        ColorSequenceKeypoint.new(0.75, Color3.fromRGB(65, 105, 225)),  -- Azul royal
+        ColorSequenceKeypoint.new(1.00, Color3.fromRGB(25, 25, 112))    -- Azul escuro
+    }),
+    ["Color Hub 2"] = Color3.fromRGB(70, 130, 180), -- Azul aço
+    ["Color Stroke"] = Color3.fromRGB(30, 144, 255), -- Azul dodger
+    ["Color Theme"] = Color3.fromRGB(0, 191, 255), -- Azul profundo
+    ["Color Text"] = Color3.fromRGB(240, 248, 255), -- Azul alice (quase branco)
+    ["Color Dark Text"] = Color3.fromRGB(176, 224, 230), -- Azul pálido
+    ["Color Accent 1"] = Color3.fromRGB(173, 216, 230), -- Azul bebê
+    ["Color Accent 2"] = Color3.fromRGB(135, 206, 250), -- Azul céu claro
+    ["Color Accent 3"] = Color3.fromRGB(100, 149, 237), -- Azul médio
+    ["Color Accent 4"] = Color3.fromRGB(65, 105, 225),  -- Azul royal
+    ["Color Accent 5"] = Color3.fromRGB(25, 25, 112)    -- Azul meia-noite
 	},
 	Info = {
 		Version = "1.2.0"
@@ -59,7 +77,7 @@ local redzlib = {
 	Save = {
 		UISize = {550, 380},
 		TabSize = 160,
-		Theme = "Purple"
+		Theme = "Nitro"
 	},
 	Settings = {},
 	Connection = {},
