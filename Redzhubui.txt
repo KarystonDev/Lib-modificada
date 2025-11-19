@@ -64,7 +64,7 @@ Nitro = {
 	Save = {
 		UISize = {550, 380},
 		TabSize = 160,
-		Theme = "Nitro"
+		Theme = "Purple"
 	},
 	Settings = {},
 	Connection = {},
