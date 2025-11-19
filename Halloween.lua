@@ -55,22 +55,22 @@ Purple = {
 },
 Nitro = {
     ["Color Hub 1"] = ColorSequence.new({
-        ColorSequenceKeypoint.new(0.00, Color3.fromRGB(173, 216, 230)), -- Azul bebê claro
-        ColorSequenceKeypoint.new(0.25, Color3.fromRGB(135, 206, 250)), -- Azul céu
-        ColorSequenceKeypoint.new(0.50, Color3.fromRGB(100, 149, 237)), -- Azul médio
-        ColorSequenceKeypoint.new(0.75, Color3.fromRGB(65, 105, 225)),  -- Azul royal
-        ColorSequenceKeypoint.new(1.00, Color3.fromRGB(25, 25, 112))    -- Azul escuro
+        ColorSequenceKeypoint.new(0.00, Color3.fromRGB(173, 216, 230)), -- Azul bebê
+        ColorSequenceKeypoint.new(0.25, Color3.fromRGB(175, 218, 232)), -- Azul bebê claro
+        ColorSequenceKeypoint.new(0.50, Color3.fromRGB(177, 220, 234)), -- Azul bebê médio
+        ColorSequenceKeypoint.new(0.75, Color3.fromRGB(179, 222, 236)), -- Azul bebê suave
+        ColorSequenceKeypoint.new(1.00, Color3.fromRGB(181, 224, 238))  -- Azul bebê claro
     }),
-    ["Color Hub 2"] = Color3.fromRGB(70, 130, 180), -- Azul aço
-    ["Color Stroke"] = Color3.fromRGB(30, 144, 255), -- Azul dodger
-    ["Color Theme"] = Color3.fromRGB(0, 191, 255), -- Azul profundo
-    ["Color Text"] = Color3.fromRGB(240, 248, 255), -- Azul alice (quase branco)
-    ["Color Dark Text"] = Color3.fromRGB(176, 224, 230), -- Azul pálido
+    ["Color Hub 2"] = Color3.fromRGB(173, 216, 230), -- Azul bebê
+    ["Color Stroke"] = Color3.fromRGB(173, 216, 230), -- Azul bebê
+    ["Color Theme"] = Color3.fromRGB(173, 216, 230), -- Azul bebê
+    ["Color Text"] = Color3.fromRGB(20, 20, 20), -- Preto (texto principal)
+    ["Color Dark Text"] = Color3.fromRGB(80, 80, 80), -- Cinza escuro (texto secundário)
     ["Color Accent 1"] = Color3.fromRGB(173, 216, 230), -- Azul bebê
-    ["Color Accent 2"] = Color3.fromRGB(135, 206, 250), -- Azul céu claro
-    ["Color Accent 3"] = Color3.fromRGB(100, 149, 237), -- Azul médio
-    ["Color Accent 4"] = Color3.fromRGB(65, 105, 225),  -- Azul royal
-    ["Color Accent 5"] = Color3.fromRGB(25, 25, 112)    -- Azul meia-noite
+    ["Color Accent 2"] = Color3.fromRGB(173, 216, 230), -- Azul bebê
+    ["Color Accent 3"] = Color3.fromRGB(173, 216, 230), -- Azul bebê
+    ["Color Accent 4"] = Color3.fromRGB(173, 216, 230), -- Azul bebê
+    ["Color Accent 5"] = Color3.fromRGB(173, 216, 230) -- Azul bebê
 },
 Halloween = {
     ["Color Hub 1"] = ColorSequence.new({
