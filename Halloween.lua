@@ -1232,8 +1232,8 @@ end)
 	local Window, FirstTab = {}, false
 	function Window:CloseBtn()
 		local Dialog = Window:Dialog({
-			Title = "Close",
-			Text = "Deseja realmente fechar o Drip Client? Ele contém recursos essenciais e fechar agora pode interromper funções importantes, causar falhas ou perder suas configurações. Cuidado antes de prosseguir!",
+			Title = "Fechar",
+			Text = "Você desenha fechar o Nitro Client? ele ainda está na beta mas ajude entre no server par asempre ficar atualizado",
 			Options = {
 				{"Confirm", function()
 					ScreenGui:Destroy()
