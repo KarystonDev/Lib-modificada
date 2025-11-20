@@ -13,13 +13,13 @@ local redzlib = {
 	Themes = {
 		Nitro = {
 			["Color Hub 1"] = ColorSequence.new({
-				ColorSequenceKeypoint.new(0.00, Color3.fromRGB(40, 0, 80)),
-				ColorSequenceKeypoint.new(0.50, Color3.fromRGB(60, 0, 120)),
-				ColorSequenceKeypoint.new(1.00, Color3.fromRGB(40, 0, 80))
+				ColorSequenceKeypoint.new(0.00, Color3.fromRGB(100, 50, 180)),
+				ColorSequenceKeypoint.new(0.50, Color3.fromRGB(120, 70, 200)),
+				ColorSequenceKeypoint.new(1.00, Color3.fromRGB(100, 50, 180))
 			}),
-			["Color Hub 2"] = Color3.fromRGB(35, 0, 70),
-			["Color Stroke"] = Color3.fromRGB(80, 0, 160),
-			["Color Theme"] = Color3.fromRGB(148, 0, 255),
+			["Color Hub 2"] = Color3.fromRGB(80, 40, 160),
+			["Color Stroke"] = Color3.fromRGB(140, 80, 220),
+			["Color Theme"] = Color3.fromRGB(180, 100, 255),
 			["Color Text"] = Color3.fromRGB(0, 0, 0),
 			["Color Dark Text"] = Color3.fromRGB(100, 100, 100)
 		}
@@ -31,7 +31,8 @@ local redzlib = {
 		UISize = {550, 380},
 		TabSize = 160,
 		Theme = "Nitro"
-	},	Settings = {},
+	},
+	Settings = {},
 	Connection = {},
 	Instances = {},
 	Elements = {},
