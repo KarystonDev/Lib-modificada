@@ -11,7 +11,7 @@ local PlayerMouse = Player:GetMouse()
 
 local redzlib = {
 	Themes = {
-		nitro = {
+		Nitro = {
 			["Color Hub 1"] = ColorSequence.new({
 				ColorSequenceKeypoint.new(0.00, Color3.fromRGB(40, 0, 80)),
 				ColorSequenceKeypoint.new(0.50, Color3.fromRGB(60, 0, 120)),
@@ -20,18 +20,18 @@ local redzlib = {
 			["Color Hub 2"] = Color3.fromRGB(35, 0, 70),
 			["Color Stroke"] = Color3.fromRGB(80, 0, 160),
 			["Color Theme"] = Color3.fromRGB(148, 0, 255),
-			["Color Text"] = Color3.fromRGB(0, 0, 0),  -- Preto
-			["Color Dark Text"] = Color3.fromRGB(100, 100, 100)  -- Cinza
-    },
+			["Color Text"] = Color3.fromRGB(0, 0, 0),
+			["Color Dark Text"] = Color3.fromRGB(100, 100, 100)
+		}
+	},
 	Info = {
 		Version = "1.1.0"
 	},
 	Save = {
 		UISize = {550, 380},
 		TabSize = 160,
-		Theme = "nitro"
-	},
-	Settings = {},
+		Theme = "Nitro"
+	},	Settings = {},
 	Connection = {},
 	Instances = {},
 	Elements = {},
